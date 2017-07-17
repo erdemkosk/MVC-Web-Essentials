@@ -1,0 +1,7 @@
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\bin\Debug\WebSimplifier.dll
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\bin\Debug\WebSimplifier.pdb
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\obj\Debug\WebSimplifier.csprojResolveAssemblyReference.cache
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\obj\Debug\WebSimplifier.dll
+C:\Users\erdem\Desktop\Projeler\BitBucket\Websimplifier\WebSimplifier\obj\Debug\WebSimplifier.pdb
