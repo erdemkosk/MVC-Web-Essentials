@@ -24,10 +24,11 @@ string generatedRandomKey = RandomKeyGeneratorManager.GenerateRandomKey(10,Gener
 
 ### LocalTime
 
-> It can be used for getting local time for special time zones. * [Microsoft Time zone] for learning all time zones.
+> It can be used for getting local time for special time zones. *[Microsoft Time zone] for learning all time zones.
 
 ```sh
-string generatedRandomKey = RandomKeyGeneratorManager.GenerateRandomKey(10,GenerationKeyType.LowerCasesAndSpecialWordsAndNumeric);
+Console.WriteLine(TimeManager.GetLocalTime("Turkey Standard Time"));
+Console.WriteLine(TimeManager.GetLocalTime("Eastern Standard Time"));
 ```
 
  [Microsoft Time zone]: <https://msdn.microsoft.com/en-us/library/ms912391(v=winembedded.11).aspx>
