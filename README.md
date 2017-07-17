@@ -10,4 +10,4 @@ SlugHelper
 ==========
 It generate Url slug for routing process.
 
-string generatedLink = UrlSlugManager.GenerateSlug("test slug string example");,,
+'string generatedLink = UrlSlugManager.GenerateSlug("test slug string example");'
