@@ -8,6 +8,26 @@ When I developed my personal blog and resume web site, I realize that, always re
 
 SlugHelper
 ==========
-It generate Url slug for routing process.
+> It generate Url slug for routing process.
 
-'string generatedLink = UrlSlugManager.GenerateSlug("test slug string example");'
+```sh
+string generatedLink = UrlSlugManager.GenerateSlug("test slug string example");
+```
+
+RandomKey
+==========
+> It generate random keys or password. It supports all different possibility. (Upper- lower-numeric-special and all combination). There >are 15 different combination.
+
+```sh
+string generatedRandomKey = RandomKeyGeneratorManager.GenerateRandomKey(10,GenerationKeyType.LowerCasesAndSpecialWordsAndNumeric);
+```
+
+LocalTime
+==========
+> It can be used for getting local time for special time zones. * [Microsoft Time zone] for learning all time zones.
+
+```sh
+string generatedRandomKey = RandomKeyGeneratorManager.GenerateRandomKey(10,GenerationKeyType.LowerCasesAndSpecialWordsAndNumeric);
+```
+
+ [Microsoft Time zone]: <https://msdn.microsoft.com/en-us/library/ms912391(v=winembedded.11).aspx>
