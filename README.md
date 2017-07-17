@@ -48,7 +48,7 @@ JsonLogManager.LogPathFile =  @"C:\Users\mek\Desktop\errorLog.json";
   catch (Exception ex)
   {
       JsonLogManager.LogError(ex);
-              
+      throw;       
   }
 ```
 
