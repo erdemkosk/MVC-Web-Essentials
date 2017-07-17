@@ -31,4 +31,25 @@ Console.WriteLine(TimeManager.GetLocalTime("Turkey Standard Time"));
 Console.WriteLine(TimeManager.GetLocalTime("Eastern Standard Time"));
 ```
 
+### JsonLogger
+
+> Whenever an error is encountered, it records all the errors for logging.
+
+```sh
+JsonLogManager.LogPathFile =  @"C:\Users\mek\Desktop\errorLog.json";
+
+
+ try
+ {
+      int numberForDivide = 20;
+      int zero = 0;
+      int sum = numberForDivide / zero;
+  }
+  catch (Exception ex)
+  {
+      JsonLogManager.LogError(ex);
+              
+  }
+```
+
  [Microsoft Time zone]: <https://msdn.microsoft.com/en-us/library/ms912391(v=winembedded.11).aspx>
